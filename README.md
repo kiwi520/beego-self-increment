@@ -13,8 +13,8 @@ github地址: https://github.com/kiwi520/beego-self-increment<br>
     self "github.com/kiwi520/beego-self-increment"
 ```   
 ``` go
-    var ai *sd.AutoInc<br>
-    ai = sd.New(NumberId,1) //第一个参数你的自增id初始值,第二个参数是自增幅度 比如每次自增1
+    var ai *self.AutoInc<br>
+    ai = self.New(NumberId,1) //第一个参数你的自增id初始值,第二个参数是自增幅度 比如每次自增1
     for _,v :=range JsonData{
 	Ai :=ai.Id() //自增id
         ...
