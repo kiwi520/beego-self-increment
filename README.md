@@ -11,7 +11,7 @@ github地址: https://github.com/kiwi520/beego-self-increment<br>
    ### 引用此包
     self "github.com/kiwi520/beego-self-increment"<br>
     
-    ``` GO
+    ``` go
     var ai *sd.AutoInc<br>
     ai = sd.New(NumberId,1)<br>
     for _,v :=range JsonData{
