@@ -12,10 +12,12 @@ github地址: https://github.com/kiwi520/beego-self-increment<br>
     self "github.com/kiwi520/beego-self-increment"<br>
     var ai *sd.AutoInc<br>
 	 ai = sd.New(NumberId,1)<br>
-    ```for _,v :=range JsonData{
-				Ai :=ai.Id() //自增id
+    ```Go
+       for _,v :=range JsonData{
+	    Ai :=ai.Id() //自增id
             ...
-    }```        
+       }
+    ```        
     
    
    
