@@ -17,7 +17,6 @@ github地址: https://github.com/kiwi520/beego-self-increment<br>
 	Ai :=ai.Id() //自增id
         ...
     }
-    
     ```
     
    
