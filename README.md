@@ -7,7 +7,7 @@ github地址: https://github.com/kiwi520/beego-self-increment<br>
 
 ## 使用方法
    ### 首先安装此包<br>
-    go get  github.com/kiwi520/beego-self-increment<br>
+    go get  github.com/kiwi520/beego-self-increment
    ### 引用此包
    
    
