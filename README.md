@@ -9,11 +9,12 @@ github地址: https://github.com/kiwi520/beego-self-increment<br>
    ### 首先安装此包<br>
     go get  github.com/kiwi520/beego-self-increment
    ### 引用此包
+``` go    
     self "github.com/kiwi520/beego-self-increment"<br>
-    
+```   
 ``` go
     var ai *sd.AutoInc<br>
-    ai = sd.New(NumberId,1)<br>
+    ai = sd.New(NumberId,1) //第一个参数你的自增id初始值,第二个参数是自增幅度 比如每次自增1
     for _,v :=range JsonData{
 	Ai :=ai.Id() //自增id
         ...
