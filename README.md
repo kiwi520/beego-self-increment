@@ -10,7 +10,7 @@ github地址: https://github.com/kiwi520/beego-self-increment<br>
     go get  github.com/kiwi520/beego-self-increment
    ### 引用此包
 ``` go    
-    self "github.com/kiwi520/beego-self-increment"<br>
+    self "github.com/kiwi520/beego-self-increment"
 ```   
 ``` go
     var ai *sd.AutoInc<br>
