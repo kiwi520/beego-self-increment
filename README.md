@@ -9,5 +9,13 @@ github地址: https://github.com/kiwi520/beego-self-increment<br>
    ### 首先安装此包<br>
     go get  github.com/kiwi520/beego-self-increment
    ### 引用此包
+    self "github.com/kiwi520/beego-self-increment"<br>
+    var ai *sd.AutoInc<br>
+	 ai = sd.New(NumberId,1)<br>
+    ```for _,v :=range JsonData{
+				Ai :=ai.Id() //自增id
+            ...
+    }```        
+    
    
    
