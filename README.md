@@ -4,10 +4,10 @@
 ## 项目地址
 github地址: https://github.com/kiwi520/beego-self-increment<br>
 欢迎使用并提出不足
-##使用方法
-   ###首先安装此包<br>
-   go get  github.com/kiwi520/beego-self-increment
-   
-   ###引用此包
+
+## 使用方法
+   ### 首先安装此包<br>
+    go get  github.com/kiwi520/beego-self-increment<br>
+   ### 引用此包
    
    
